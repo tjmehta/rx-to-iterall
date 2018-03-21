@@ -1,0 +1,41 @@
+{
+  "name": "rx-to-iterall",
+  "version": "0.0.0",
+  "description": "Convert rxjs observables into iterall async iterators",
+  "main": "index.js",
+  "dependencies": {
+    "iterall": "^1.2.2"
+  },
+  "devDependencies": {
+    "exposed-promise": "^1.0.0",
+    "jest": "^22.4.2",
+    "minipass": "^2.2.1",
+    "rxjs": "^5.5.7",
+    "standard": "^11.0.1",
+    "stream-to-observable": "^0.2.0",
+    "timeout-then": "^1.1.0"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmehta/rx-to-iterall.git"
+  },
+  "keywords": [
+    "rxjs",
+    "rx",
+    "observable",
+    "iterall",
+    "iterator",
+    "async",
+    "iterable"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/rx-to-iterall/issues"
+  },
+  "homepage": "https://github.com/tjmehta/rx-to-iterall#readme"
+}
