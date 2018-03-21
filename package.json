@@ -1,6 +1,6 @@
 {
   "name": "rx-to-iterall",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert rxjs observables into iterall async iterators",
   "main": "index.js",
   "dependencies": {
