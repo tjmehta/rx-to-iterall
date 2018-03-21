@@ -87,9 +87,11 @@ ObservableAsyncIterator.prototype.next = function () {
 }
 
 ObservableAsyncIterator.prototype.return = function () {
-  if (!this._listening) return Promise.resolve({ value: undefined, done: true })
-  this._handleComplete()
+  const result = {value: undefined, done: true}
+  if (!this._listening) return Promise.resolve(result)
   this._subscriber.unsubscribe()
+  this._handleComplete()
+  return Promise.resolve(result)
 }
 
 module.exports = ObservableAsyncIterator
