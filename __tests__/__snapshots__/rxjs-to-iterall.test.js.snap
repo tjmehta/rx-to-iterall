@@ -1,0 +1,555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rxjsToIterall async error should receive multiple events and error 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": "one",
+      },
+      0,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+    Array [
+      Object {
+        "data": "two",
+      },
+      1,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+  ],
+}
+`;
+
+exports[`rxjsToIterall finished iterable should not call onNext 1`] = `[MockFunction]`;
+
+exports[`rxjsToIterall pull first should receive data 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": "one",
+      },
+      0,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+  ],
+}
+`;
+
+exports[`rxjsToIterall should receive complete 1`] = `[MockFunction]`;
+
+exports[`rxjsToIterall should receive data 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": "one",
+      },
+      0,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+  ],
+}
+`;
+
+exports[`rxjsToIterall should receive error 1`] = `[MockFunction]`;
+
+exports[`rxjsToIterall should receive multiple events 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": "one",
+      },
+      0,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+    Array [
+      Object {
+        "data": "two",
+      },
+      1,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+  ],
+}
+`;
+
+exports[`rxjsToIterall should receive multiple events and error 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": "one",
+      },
+      0,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+    Array [
+      Object {
+        "data": "two",
+      },
+      1,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+    Array [
+      Object {
+        "data": "three",
+      },
+      2,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": null,
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": null,
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": true,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": true,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+  ],
+}
+`;
+
+exports[`rxjsToIterall should receive multiple events and unsubscribe 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": "one",
+      },
+      0,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": [Circular],
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": [Circular],
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": false,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": false,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+    Array [
+      Object {
+        "data": "two",
+      },
+      1,
+      ObservableAsyncIterator {
+        "_listening": false,
+        "_observable": Observable {
+          "_isScalar": false,
+          "_subscribe": [Function],
+        },
+        "_pullQueue": Array [],
+        "_pushQueue": Array [],
+        "_subscriber": Subscriber {
+          "_parent": null,
+          "_parents": null,
+          "_subscriptions": null,
+          "closed": true,
+          "destination": SafeSubscriber {
+            "_complete": [Function],
+            "_context": [Circular],
+            "_error": [Function],
+            "_next": [Function],
+            "_parent": null,
+            "_parentSubscriber": [Circular],
+            "_parents": null,
+            "_subscriptions": null,
+            "closed": false,
+            "destination": Object {
+              "closed": true,
+              "complete": [Function],
+              "error": [Function],
+              "next": [Function],
+            },
+            "isStopped": false,
+            "syncErrorThrowable": false,
+            "syncErrorThrown": false,
+            "syncErrorValue": null,
+          },
+          "isStopped": true,
+          "syncErrorThrowable": false,
+          "syncErrorThrown": false,
+          "syncErrorValue": null,
+        },
+      },
+    ],
+  ],
+}
+`;
