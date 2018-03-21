@@ -1,4 +1,6 @@
 # rx-to-iterall [![Build Status](https://travis-ci.org/tjmehta/rx-to-iterall.svg?branch=master)](https://travis-ci.org/tjmehta/rx-to-iterall)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/tjmehta/rx-to-iterall.svg)](https://greenkeeper.io/)
 Convert rxjs Observables into iterall AsyncIterators
 
 # Installation
