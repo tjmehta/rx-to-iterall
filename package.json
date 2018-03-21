@@ -4,10 +4,10 @@
   "description": "Convert rxjs observables into iterall async iterators",
   "main": "index.js",
   "dependencies": {
+    "exposed-promise": "^1.0.0",
     "iterall": "^1.2.2"
   },
   "devDependencies": {
-    "exposed-promise": "^1.0.0",
     "jest": "^22.4.2",
     "minipass": "^2.2.1",
     "rxjs": "^5.5.7",
