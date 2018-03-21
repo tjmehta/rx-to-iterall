@@ -82,7 +82,7 @@ describe('rxjsToIterall', () => {
     // trigger events
     ctx.stream.write({ data: 'one' })
     ctx.stream.write({ data: 'two' })
-    ctx.iterable.return()
+    const retPromise = ctx.iterable.return()
     ctx.stream.write({ data: 'three' })
     // wait for async iterable
     const onNext = jest.fn()
@@ -90,6 +90,9 @@ describe('rxjsToIterall', () => {
       // add an extra delay to make sure next is not called after complete
       return timeout(10).then(() => {
         expect(onNext).toMatchSnapshot()
+        return retPromise.then((doneData) => {
+          expect(doneData).toEqual({done: true})
+        })
       })
     })
   })
@@ -173,7 +176,9 @@ describe('rxjsToIterall', () => {
           return timeout(10).then(() => {
             expect(onNext).toMatchSnapshot()
             // for coverage..
-            ctx.iterable.return()
+            return ctx.iterable.return().then((doneData) => {
+              expect(doneData).toEqual({done: true})
+            })
           })
         })
       })
